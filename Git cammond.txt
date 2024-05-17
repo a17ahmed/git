@@ -1,0 +1,57 @@
+
+
+                             Git Cammonds
+
+1:-Git Cammond for enter name: git config --global user.name "Your Name"
+
+2:-Git Cammond for enter email: git config --global user.email "Your Email"
+
+3:-Git Cammond for check status : git status 
+
+4:-Git Cammond for initialize git in folder: git init
+
+5:-Git Cammond for add in stage : git add --a  (--a means all files)
+
+6:-Git Cammond for add a commit : git commit -m (-m use for write a message)
+
+7:-Git Cammond for check view all commits : git log  
+
+8:-Git Cammond for unstage all files : git reset 
+
+9:-Git Cammond for make gitignore folder: touch.gitignore
+ 
+       (Touch is linux cammond for creating folder)
+ 
+10:-Git Cammond for compare staged file or modified file is : git diff
+
+11:-Git Cammond for compare previous commit with present stage is : git diff --staged
+
+12:-Git Cammond for skiping stage area is : git commit -a -m"text"
+
+13:-Git Cammond for deleting a file is : git rm (file name) 
+
+14:-Git Cammond for rename a file is : git mv oldName.txt newName.txt
+
+15:-Git Cammond for watch git commit with change is : git log -p 
+
+16:-Git Cammond for watch all git commit in oneline is : git log --pretty=oneline
+
+17:-Git Cammond watch all git commit in short is : git log --pretty=short
+
+18:-Git Cammond watch all git commit with full view is : git log --pretty=full
+
+18:-Git Cammond watch all git commit accoding to time is : git log --since(days).time 
+           
+             {example(git log --since2.weeks) its like a filter}
+
+19:-Git command for pulling repo from branch[
+
+    1:First make sure your repo/brantch is commited 
+   2:Run this command (git pull origin your_branch_name)
+    3:Then run this command(git merge origin/ required branch_name)
+	example: git merge origin/ayhab-branch
+]
+
+20:-Git command for delete branch git branch -d ahmed
+    for confermation git branch -D ahmed-branch
+21:-Git command for delete remote branch git push origin --delete <branch-name>
